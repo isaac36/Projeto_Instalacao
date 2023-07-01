@@ -1,7 +1,9 @@
 import processing.svg.*;
 PShape heartSVG;
+float angle = 0;
+
 void setup() {
-  size(800, 300);
+  size(1280, 720);
   frameRate(30);
   smooth();
   
